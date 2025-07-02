@@ -1,15 +1,15 @@
 <template>
     <div class="footer-body">
 
-        <a :href="previousLink" class="mini-arrow">
-            <img :src="arrowleft" class ="arrow"></img>
-            <p>{{previous}}</p>
-        </a>
+        <router-link :to="previousLink" class="mini-arrow">
+            <img :src="arrowleft" class="arrow" />
+            <p>{{ previous }}</p>
+        </router-link>
 
-        <a :href="nextLink" class="mini-arrow">
+        <router-link :to="nextLink" class="mini-arrow">
             <p>{{ next }}</p>
             <img :src="arrowright" class ="arrow"></img>
-        </a>
+        </router-link>
     </div>
 </template>
 
