@@ -1,5 +1,5 @@
 <script setup>
-  import MeStesso from '@/assets/img/me stesso.jpg'
+  import MeStesso from '@/assets/img/me stesso.webp'
   import githubLogo from '@/assets/img/github-mark.png'
   import itchLogo from '@/assets/img/itch-mark.svg'
   import linkedinLogo from '@/assets/img/ln-mark.png'

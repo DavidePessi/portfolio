@@ -1,12 +1,12 @@
 <script setup >
 import chatbot from '@/assets/img/HH-Chatbot.jpg';
-import contact from '@/assets/img/HH-Contact.jpg';
-import projects from '@/assets/img/HH-Projects.jpg';
+import contact from '@/assets/img/HH-Contact.webp';
+import projects from '@/assets/img/HH-Projects.webp';
 import mockup from '@/assets/img/HH-mock-up.png';
-import title from '@/assets/img/HelpingHands Title.jpg';
-import worker from '@/assets/img/HH-worker.jpg';
-import footer from '@/assets/img/HH-footer.jpg';
-import donate from '@/assets/img/HH-Donate.jpg';
+import title from '@/assets/img/HelpingHands Title.webp';
+import worker from '@/assets/img/HH-worker.webp';
+import footer from '@/assets/img/HH-footer.webp';
+import donate from '@/assets/img/HH-Donate.webp';
 </script>
 
 <template>

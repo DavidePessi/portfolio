@@ -1,12 +1,12 @@
 <script setup>
-    import title from '@/assets/img/LivingSpace Title.jpg'; 
-    import prototype from '@/assets/img/LS-Prototype.png';
-    import prototype2 from '@/assets/img/LS-prototype2.png';
-    import team from '@/assets/img/LS-Team.png';
-    import survey from '@/assets/img/LS-Survey.png';
-    import fog from '@/assets/img/LS-fog.png';
-    import tutorial from '@/assets/img/LS-Tutorial.png';
-    import bump from '@/assets/img/LS-Bump.png';
+    import title from '@/assets/img/LivingSpace Title.webp'; 
+    import prototype from '@/assets/img/LS-Prototype.webp';
+    import prototype2 from '@/assets/img/LS-prototype2.webp';
+    import team from '@/assets/img/LS-Team.webp';
+    import survey from '@/assets/img/LS-Survey.webp';
+    import fog from '@/assets/img/LS-fog.webp';
+    import tutorial from '@/assets/img/LS-Tutorial.webp';
+    import bump from '@/assets/img/LS-Bump.webp';
 </script>
 
 <template>

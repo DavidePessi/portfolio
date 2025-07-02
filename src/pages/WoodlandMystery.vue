@@ -1,10 +1,10 @@
 <script setup>
-    import title from '@/assets/img/Woodland Title.png'
-    import minigame from '@/assets/img/WM-Puzzle1.png';
+    import title from '@/assets/img/Woodland Title.webp'
+    import minigame from '@/assets/img/WM-Puzzle1.webp';
     import dialogue from '@/assets/img/WM-Dialogue.png';
     import team from '@/assets/img/WM-Team.png';
     import minigame2 from '@/assets/img/WM-Puzzle2.png';
-    import notebook from '@/assets/img/WM-Notebook.png';
+    import notebook from '@/assets/img/WM-Notebook.webp';
     import shader from '@/assets/img/WM-shader.png';
     import mockup from '@/assets/img/WM-mock-up.png';
 </script>

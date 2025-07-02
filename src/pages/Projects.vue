@@ -1,10 +1,10 @@
 <script setup>
-  import WoodlandImage from '@/assets/img/Woodland Title.png'
-  import LivingSpaceImage from '@/assets/img/LivingSpace Title.jpg'
-  import HelpingHandsImage from '@/assets/img/HelpingHands Title.jpg'
+  import WoodlandImage from '@/assets/img/Woodland Title.webp'
+  import LivingSpaceImage from '@/assets/img/LivingSpace Title.webp'
+  import HelpingHandsImage from '@/assets/img/HelpingHands Title.webp'
   import CarGameImage from '@/assets/img/CarGame Title.jpg'
-  import ExpiredFilmImage from '@/assets/img/ExpiredFilm Shader.png'
-  import FantaDraftImage from '@/assets/img/FD-Admin.png'
+  import ExpiredFilmImage from '@/assets/img/ExpiredFilm Shader.webp'
+  import FantaDraftImage from '@/assets/img/FD-Admin.webp'
   import SketchCard from '@/components/SketchCard.vue'
 </script>
 

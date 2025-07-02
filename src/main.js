@@ -88,10 +88,10 @@ app.component('SketchedCard', SketchedCard);
 app.component('FooterProject', FooterProject);
 
 
-import paper1 from './assets/img/paper1.png';
-import paper2 from './assets/img/paper2.png';
-import paper3 from './assets/img/paper3.png';
-import paper4 from './assets/img/paper4.png';
+import paper1 from './assets/img/paper1.webp';
+import paper2 from './assets/img/paper2.webp';
+import paper3 from './assets/img/paper3.webp';
+import paper4 from './assets/img/paper4.webp';
 
 
 const paperImages = [paper1, paper2, paper3, paper4];

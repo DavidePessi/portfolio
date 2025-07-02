@@ -1,10 +1,10 @@
 <script setup>
     import title from '@/assets/img/CarGame Title.jpg';
-    import isometric from '@/assets/img/CG-isometric.png';
-    import day from '@/assets/img/CG-day.png';
-    import shader from '@/assets/img/CG-shader.png';
-    import night from '@/assets/img/CG-night.png';
-    import coin from '@/assets/img/CG-coin.png';
+    import isometric from '@/assets/img/CG-isometric.webp';
+    import day from '@/assets/img/CG-day.webp';
+    import shader from '@/assets/img/CG-shader.webp';
+    import night from '@/assets/img/CG-night.webp';
+    import coin from '@/assets/img/CG-coin.webp';
 
 </script>
 
