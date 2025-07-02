@@ -1,5 +1,4 @@
 <script setup>
-  import puckImage from '@/assets/img/puck.png';
   import githubLogo from '@/assets/img/github-mark.png';
   import itchLogo from '@/assets/img/itch-mark.svg';
   import linkedinLogo from '@/assets/img/ln-mark.png';
