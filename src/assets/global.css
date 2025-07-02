@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'SketchBlock';
+  src: url('./fonts/Sketch_Block.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PatrickHand';
+  src: url('./fonts/PatrickHand.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
