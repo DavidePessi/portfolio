@@ -1,7 +1,7 @@
 <script setup>
     import title from '@/assets/img/LivingSpace Title.jpg'; 
     import prototype from '@/assets/img/LS-Prototype.png';
-    import prototype2 from '@/assets/img/LS-Prototype2.png';
+    import prototype2 from '@/assets/img/LS-prototype2.png';
     import team from '@/assets/img/LS-Team.png';
     import survey from '@/assets/img/LS-Survey.png';
     import fog from '@/assets/img/LS-fog.png';
