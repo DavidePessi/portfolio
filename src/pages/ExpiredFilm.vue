@@ -1,0 +1,3 @@
+<template>
+    <TopBar></TopBar>
+</template>
