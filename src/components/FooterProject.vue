@@ -14,8 +14,8 @@
 </template>
 
 <script setup>
-    import arrowleft from '@/assets/img/ArrowLeft.png';
-    import arrowright from '@/assets/img/ArrowRight.png';
+    import arrowleft from '@/assets/img/ArrowLeft.PNG';
+    import arrowright from '@/assets/img/ArrowRight.PNG';
 
     const props = defineProps({
         next: String,
