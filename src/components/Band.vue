@@ -1,7 +1,9 @@
 <template>
   <div class="fascia">
     <div class="descrizione">
-      <h2 style="font-family: 'SketchBlock'"><a :href="link" class="hover-link">{{ title }}</a></h2>
+      <h2 style="font-family: 'SketchBlock'">
+  <router-link :to="link" class="hover-link">{{ title }}</router-link>
+</h2>
       <p v-html="description" style="font-family: 'PatrickHand'"></p>
       <Highlight :text="props.tag" :fontSize="20"></Highlight>
     </div>
