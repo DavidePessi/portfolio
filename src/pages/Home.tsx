@@ -2,9 +2,16 @@ import { useState } from 'react'
 import Menu from '../components/Menu'
 import TopBar from '../components/TopBar'
 import { PROJECT_NAMES } from '../constants/projects'
+import { useIsMobile } from '../hooks/useIsMobile'
+import MobileLayout from './MobileLayout'
 
 function Home() {
+  const isMobile = useIsMobile()
   const [hoveredProject, setHoveredProject] = useState<string>('Sfondo')
+
+  if (isMobile) {
+    return <MobileLayout />
+  }
 
   return (
     <div className="flex flex-col w-full h-full px-10 pt-10 pb-30 items-start ">

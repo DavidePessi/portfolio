@@ -4,11 +4,18 @@ import SquaredButton from '../components/SquaredButton'
 import ArcSvg from '../components/svg/ArcSvg'
 import TopBar from '../components/TopBar'
 import { PROJECT_NAMES } from '../constants/projects'
+import MobileLayout from './MobileLayout'
+import { useIsMobile } from '../hooks/useIsMobile'
 
 const PROJECT_PER_PAGE = 5
 
 function ProjectsPage() {
   const [offsetPage, setOffsetPage] = useState<number>(0)
+  const isMobile = useIsMobile()
+
+  if (isMobile) {
+    return <MobileLayout />
+  }
 
   return (
     <div className="flex flex-col w-full h-full px-10 pt-10 pb-30 gap-10 items-start bg-[#CB7E49]">

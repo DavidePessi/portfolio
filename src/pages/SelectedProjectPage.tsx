@@ -5,10 +5,18 @@ import SquaredButton from '../components/SquaredButton'
 import Polaroid from '../components/Polaroid'
 import LinkIcon from '../components/Icons/LinkIcon'
 import { getProjectById, type Media } from '../utils/project-structure'
+import MobileLayout from './MobileLayout'
+import { useIsMobile } from '../hooks/useIsMobile'
 
 function SelectedProjectPage() {
   const { projectName } = useParams()
   const navigate = useNavigate()
+  const isMobile = useIsMobile()
+
+  if (isMobile) {
+    return <MobileLayout />
+  }
+
   const project = getProjectById(projectName ?? '') ?? CONTENT[0]
 
   const thumbnail: Media = { type: 'image', url: project.defaultImg }

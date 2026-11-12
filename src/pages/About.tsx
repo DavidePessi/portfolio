@@ -4,6 +4,11 @@ import { useIsMobile } from '../hooks/useIsMobile'
 import MobileLayout from './MobileLayout'
 
 function About() {
+  const isMobile = useIsMobile()
+
+  if (isMobile) {
+    return <MobileLayout />
+  }
 
   return (
     <div className="flex flex-col w-full h-full px-10 pt-10 pb-30 gap-10 items-start bg-[#CB7E49]">

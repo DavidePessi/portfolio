@@ -1,0 +1,17 @@
+import { useSyncExternalStore } from 'react'
+
+export function useMediaQuery(query: string) {
+  return useSyncExternalStore(
+    (callback) => {
+      const mql = window.matchMedia(query)
+      mql.addEventListener('change', callback)
+      return () => mql.removeEventListener('change', callback)
+    },
+    () => window.matchMedia(query).matches,
+    () => false
+  )
+}
+
+export function useIsMobile(breakpoint = 768) {
+  return useMediaQuery(`(max-width: ${breakpoint - 1}px)`)
+}
