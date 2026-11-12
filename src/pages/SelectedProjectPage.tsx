@@ -43,7 +43,7 @@ function SelectedProjectPage() {
               <div className="flex-1 min-w-0 flex justify-center [container-type:size]">
                 <Polaroid medias={photoSet} />
               </div>
-              <div className="flex-1 flex-col pr-3 overflow-y-scroll">
+              <div className="flex-1 flex-col pr-3 overflow-y-auto">
                 {project.team && (
                   <p className="whitespace-pre-line">
                     <strong>Team: </strong> {`${project.team}`}
