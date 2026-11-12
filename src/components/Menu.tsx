@@ -19,6 +19,7 @@ function Menu({
 
   return (
     <div className="flex flex-col w-full gap-2.5">
+      <p className="text-[30px]">{`Project`}</p>
       {projects.map((project) => {
         return (
           <MenuButton
@@ -50,6 +51,7 @@ function MenuButton({
         className={
           'flex w-full px-8 py-2 text-[30px] hover:rounded-full hover:shadow-[4px_4px_4px_0px_#00000040] hover:bg-[#EE8B89]'
         }
+        onMouseEnter={() => onFocus('more-background')}
         onMouseDown={() => navigate(`/projects`)}
       >
         {project}
