@@ -25,9 +25,9 @@ function SelectedProjectPage() {
   return (
     <div className="flex flex-col w-full h-full px-10 pt-10 pb-20 gap-10 items-center bg-[#CB7E49]">
       <TopBar />
-      <div className="flex flex-col min-h-0">
-        <div className="flex flex-col w-full min-h-0 px-10 py-10 items-center gap-10 rounded-[60px] bg-[#E5C48F] shadow-[12px_12px_4px_0px_#00000040]">
-          <div className="flex flex-col min-h-0 w-full items-center gap-5">
+      <div className="flex flex-col flex-1 w-full min-h-0">
+        <div className="flex flex-col flex-1 w-full min-h-0 px-10 py-10 items-center gap-10 rounded-[60px] bg-[#E5C48F] shadow-[12px_12px_4px_0px_#00000040]">
+          <div className="flex flex-col flex-1 min-h-0 w-full items-center gap-5">
             <div className="flex w-full gap-3">
               <p className="text-[30px]">{project.title}</p>
               {project.externalLink && (
@@ -39,11 +39,11 @@ function SelectedProjectPage() {
                 </SquaredButton>
               )}
             </div>
-            <div className="flex w-full min-h-0 gap-10">
+            <div className="flex flex-1 w-full min-h-0 gap-10">
               <div className="flex-1 min-w-0 flex justify-center [container-type:size]">
                 <Polaroid medias={photoSet} />
               </div>
-              <div className="flex-1 flex-col pr-3 overflow-y-auto">
+              <div className="flex-1 min-w-0 min-h-0 flex-col pr-3 overflow-y-auto">
                 {project.team && (
                   <p className="whitespace-pre-line">
                     <strong>Team: </strong> {`${project.team}`}
