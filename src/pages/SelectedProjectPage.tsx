@@ -41,7 +41,7 @@ function SelectedProjectPage() {
             </div>
             <div className="flex flex-1 w-full min-h-0 gap-10">
               <div className="flex-1 min-w-0 flex justify-center [container-type:size]">
-                <Polaroid medias={photoSet} />
+                <Polaroid key={project.id} medias={photoSet} />
               </div>
               <div className="flex-1 min-w-0 min-h-0 flex-col pr-3 overflow-y-auto">
                 {project.team && (
