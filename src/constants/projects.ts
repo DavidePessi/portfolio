@@ -26,13 +26,13 @@ export const CONTENT: Project[] = [
     externalLink: 'https://polimi-game-collective.itch.io/woodland-mystery',
     defaultImg: 'Woodland Mystery.webp',
     extraMedia: [
-      { type: 'image', url: 'woodland-mystery/WM-Dialogue.png' },
-      { type: 'image', url: 'woodland-mystery/WM-mock-up.png' },
+      { type: 'image', url: 'woodland-mystery/WM-Dialogue.webp' },
+      { type: 'image', url: 'woodland-mystery/WM-mock-up.webp' },
       { type: 'image', url: 'woodland-mystery/WM-Notebook.webp' },
       { type: 'image', url: 'woodland-mystery/WM-Puzzle1.webp' },
-      { type: 'image', url: 'woodland-mystery/WM-Puzzle2.png' },
-      { type: 'image', url: 'woodland-mystery/WM-shader.png' },
-      { type: 'image', url: 'woodland-mystery/WM-Team.png' },
+      { type: 'image', url: 'woodland-mystery/WM-Puzzle2.webp' },
+      { type: 'image', url: 'woodland-mystery/WM-shader.webp' },
+      { type: 'image', url: 'woodland-mystery/WM-Team.webp' },
     ],
   },
   {
@@ -62,7 +62,7 @@ export const CONTENT: Project[] = [
       { type: 'image', url: 'dog/LS-prototype2.webp' },
       { type: 'image', url: 'dog/LS-Survey.webp' },
       { type: 'image', url: 'dog/LS-Tutorial.webp' },
-      { type: 'image', url: 'dog/LS-Test.png' },
+      { type: 'image', url: 'dog/LS-Test.webp' },
       { type: 'image', url: 'dog/LS-Team.webp' },
     ],
   },
@@ -77,10 +77,10 @@ export const CONTENT: Project[] = [
     the model you import or of the default model given. You can then download your work in .OBJ or .STF.`,
     defaultImg: 'Modellation site.webp',
     extraMedia: [
-      { type: 'video', url: 'modelling/changing-shape.mov' },
-      { type: 'image', url: 'modelling/example-1.png' },
-      { type: 'image', url: 'modelling/example-2.png' },
-      { type: 'video', url: 'modelling/onboarding.mov' },
+      { type: 'video', url: 'modelling/changing-shape.webm' },
+      { type: 'image', url: 'modelling/example-1.webp' },
+      { type: 'image', url: 'modelling/example-2.webp' },
+      { type: 'video', url: 'modelling/onboarding.webm' },
     ],
   },
   {
@@ -94,10 +94,10 @@ export const CONTENT: Project[] = [
     As a developer I implemented the UI interface and the character controller. I also helped in the making of the animation and aspect of the game.
     `,
     externalLink: `https://nakura79.itch.io/astral-abyss`,
-    defaultImg: 'astral-abyss.png',
+    defaultImg: 'astral-abyss.webp',
     extraMedia: [
-      { type: 'image', url: 'abstral-abyss/dialogue-box.png' },
-      { type: 'video', url: 'abstral-abyss/gameplay.mov' },
+      { type: 'image', url: 'abstral-abyss/dialogue-box.webp' },
+      { type: 'video', url: 'abstral-abyss/gameplay.webm' },
     ],
   },
   {
@@ -119,12 +119,12 @@ export const CONTENT: Project[] = [
     `,
     defaultImg: 'shaders/expired-film.webp',
     extraMedia: [
-      { type: 'image', url: 'shaders/shadow-1.png' },
-      { type: 'image', url: 'shaders/shadow-2.png' },
-      { type: 'video', url: 'modelling/changing-shape.mov' },
-      { type: 'video', url: 'shaders/shader-painting.mov' },
+      { type: 'image', url: 'shaders/shadow-1.webp' },
+      { type: 'image', url: 'shaders/shadow-2.webp' },
+      { type: 'video', url: 'modelling/changing-shape.webm' },
+      { type: 'video', url: 'shaders/shader-painting.webm' },
       { type: 'image', url: 'shaders/expired-film.webp' },
-      { type: 'video', url: 'shaders/shader-veil.mov' },
+      { type: 'video', url: 'shaders/shader-veil.webm' },
     ],
   },
   {
@@ -139,7 +139,7 @@ export const CONTENT: Project[] = [
     - A firework VFX
     `,
     defaultImg: 'vfx.png',
-    extraMedia: [{ type: 'video', url: 'VFX/firework1.mov' }],
+    extraMedia: [{ type: 'video', url: 'VFX/firework1.webm' }],
   },
   {
     id: 'Interaction camera',
@@ -151,11 +151,11 @@ export const CONTENT: Project[] = [
     The shader is only applied to the rectangle made by the user's hands. 
     The hand-tracking is made by the MediaPipe plugin.
     `,
-    defaultImg: 'interaction-camera.png',
+    defaultImg: 'interaction-camera.webp',
     extraMedia: [
-      { type: 'video', url: 'interaction-camera/1.mov' },
-      { type: 'video', url: 'interaction-camera/2.mov' },
-      { type: 'video', url: 'interaction-camera/3.mov' },
+      { type: 'video', url: 'interaction-camera/1.webm' },
+      { type: 'video', url: 'interaction-camera/2.webm' },
+      { type: 'video', url: 'interaction-camera/3.webm' },
     ],
   },
 ]
